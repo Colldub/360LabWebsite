@@ -19,6 +19,7 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.j
 <style>
     .notsidebar{
         padding-right: 250px;
+        padding-top: 350px;
     }
     .sidebar {
         height: 100vh;
@@ -36,16 +37,124 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.j
     }
 </style>
 </head>
-    <body class="notsidebar">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6"></div>
-                    <img src ="https://objects.lib.uidaho.edu/uihistorical/small/spec_uihp470_sm.jpg" alt="Responsive Image" class="img-fluid w-50" sytle="float: left">
-                </div>
-                <div class="col-md-6">
+<body class="notsidebar">
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Image 1 -->
+            <div class="col-md-4">
+                <img src="images/image1.png" alt="Image 1" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal1" style="cursor: pointer;">
+            </div>
+            <!-- Image 2 -->
+            <div class="col-md-4">
+                <img src="images/image2.png" alt="Image 2" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal2" style="cursor: pointer;">
+            </div>
+            <!-- Image 3 -->
+            <div class="col-md-4">
+                <img src="images/image3.png" alt="Image 3" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal3" style="cursor: pointer;">
+            </div>
+        </div>
+        <div class="row mt-3">
+            <!-- Image 4 -->
+            <div class="col-md-4">
+                <img src="images/image4.png" alt="Image 4" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal4" style="cursor: pointer;">
+            </div>
+            <!-- Image 5 -->
+            <div class="col-md-4">
+                <img src="images/image5.png" alt="Image 5" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal5" style="cursor: pointer;">
+            </div>
+            <!-- Image 6 -->
+            <div class="col-md-4">
+                <img src="images/image6.png" alt="Image 6" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal6" style="cursor: pointer;">
+            </div>
+        </div>
+    </div>
 
+    <!-- Modals for each image -->
+    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal1Label">Image 1</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="images/image1.png" alt="Image 1" class="img-fluid">
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal2Label">Image 2</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="images/image2.png" alt="Image 2" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal3Label">Image 3</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="images/image3.png" alt="Image 3" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal4Label">Image 4</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="images/image4.png" alt="Image 4" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal5Label">Image 5</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="images/image5.png" alt="Image 5" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal6Label">Image 6</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="images/image6.png" alt="Image 6" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
